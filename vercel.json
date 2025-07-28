@@ -1,7 +1,8 @@
 {
-  "functions": {
-    "pages/api/scraper.py": {
-      "runtime": "python3.9"
+  "builds": [
+    {
+      "src": "pages/api/scraper.py",
+      "use": "@vercel/python"
     }
-  }
+  ]
 }
